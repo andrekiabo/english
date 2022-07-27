@@ -17,15 +17,17 @@ color: #363432;
 
 }
 h3 {
-    color: #363432;
+    background-color:#F38150 ;
     text-align: center;
+    width: 300px;
+    margin: auto;
 }
 
 p {
     text-align: justify;
 }
 a {
-    color: #363432;
+    color: #2b2a28;
     text-align: center;
 }
 
