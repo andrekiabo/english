@@ -19,17 +19,33 @@ main {
 h1 { text-align: center;
     
 }
+h3.menu {
+  box-shadow: 7px 5px 20px #8a612b;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  border-radius: 7px;
+  padding: 4px;
+  background-color:white;
+  width: max-content
 
-h3{
-   text-align: center; 
-    color: black;
-    
-  }
+}
+
+
+h3{ 
+   
+   }
 
   a {
-    color: black;
+    color: rgb(0, 0, 0);
+
   }
 
   mark {
     background-color: #fac580;
   }
+
+  
+
+
+  
