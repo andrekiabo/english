@@ -3,8 +3,31 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to bottom, #ef6124ce 0,7%, #f0a7487c );
-   
+    margin: 0%;
+    margin-top: 0px;
 }
+
+.logo {
+  position: relative;
+  margin-left: 5%;
+  width: 50px;
+}
+
+.divlogo {
+  background-color: white;
+}
+
+ 
+.menu   {
+  position: absolute;
+  width: 95%;
+  text-align: right;
+  top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-around;
+ 
+}
+
 main { 
      background-color: white;
      margin: auto;
@@ -13,39 +36,52 @@ main {
      border-radius: 10px;
      box-shadow: 7px -5px 10px #8a612b;
      text-align: center;
-     
 }
 
 h1 { text-align: center;
-    
 }
+
 h3.menu {
-  box-shadow: 7px 5px 20px #8a612b;
   text-align: center;
   color: rgb(0, 0, 0);
   margin: auto;
-  border-radius: 7px;
-  padding: 4px;
-  background-color:white;
   width: max-content
 
 }
 
+.cabecalho-menu {
+  margin-bottom: 10px;
+  margin-left: 12%;
+  margin-right: 12%;
+  display: flex;
+  justify-content: space-between; 
+}
 
-h3{ 
-   
-   }
-
-  a {
+a {
     color: rgb(0, 0, 0);
+    text-decoration: none;
+}
 
-  }
+a:hover {
+    text-decoration:underline ;
+}
 
-  mark {
+a:active {
+    color: rgb(255, 255, 255);
+}
+
+mark {
     background-color: #fac580;
   }
 
+  footer > p {
+     text-align: center;
+     background-color: white;
+  }
+
   
+  
+
 
 
   

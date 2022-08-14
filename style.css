@@ -5,11 +5,18 @@ body {
 
     background-image: linear-gradient(to right, #ef6124ce , #f0a7487c );
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    margin-top: 0px;
 
 }
+
+p > img {
+    box-shadow: 7px 10px 15px #572f1d8f;
+}
+
 h1 {
     text-align: center;
-    color: #363432;
+    
 }
 
 h2 {
@@ -30,15 +37,55 @@ p {
 a {
     color: #2b2a28;
     text-align: center;
+    text-decoration: none;
+
+}
+a:hover {
+    
+    text-decoration: underline;
+    
+}
+a:active {
+    color: white;
+    
+
 }
 
 main {
     background-color: white;
-    width: 80%;
-    padding: 10px;
+    width: 85%;
+    height: 80%;
+    padding: 20px;
     margin: auto;
-  
+    margin-top: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #895510b0;
 }
 
+footer > p {
+    text-align: center;
+    background-color: aliceblue;
+    
+}
+
+
+.logo {
+    position: relative;
+    margin-left: 5%;
+    width: 50px;
+  }
+  
+  .divlogo {
+    background-color: rgb(255, 255, 255);
+  }
+  
+   
+  .menu   {
+    position: absolute;
+    width: 95%;
+    text-align: right;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+   
+  }
