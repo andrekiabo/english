@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 
 
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
 /* --------- Style início geral ----------*/
 body {
 
@@ -83,89 +88,84 @@ body {
 }
 /* ------- fim style geral ------- */
 
-
-
 main {
+    /* background-color: white; */
+    /* width: 80%; */
   padding: 5%;
+    /* margin: auto; */
+    /* margin-top: 20px; */
+    /* border-radius: 10px; */
+    /* box-shadow: 5px 5px 20px #010101b0; */
 }
 
-h1 { text-align: center;
-  color: #0d345c;
-}
-h2 {
-  text-align: center;
-}
-.frases {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  background-color: #f2f2f2;
-  padding: 1px;
-  border-radius: 10px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-}
-
-.frases p {
-  text-align: center;
-}
-.frases audio {
-  margin-left: auto;
-  margin-right:auto ;
-  margin-top: 5px;
-  /* filter: brightness(1000%) contrast(140%) saturate(130%); */
-}
-.frases audio::-webkit-media-controls-play-button {
-  background-color: #ffffff; /* Cor do botão de play */
-}
-
-.frases audio::-webkit-media-controls-enclosure {
-  color: #fff; /* Cor do texto */
-}
-/* --- texto completo final --- */
-h3 {
-  text-align: center;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+.container-intro {
+    display: flex;
+    margin-top: 50px;
 
 }
-h3 audio {
-  margin-top: 30px;
+
+.intro-textos {
+    width: 50%;
+
 }
-h3 audio::-webkit-media-controls-play-button {
-  background-color: #ffffff; /* Cor do botão de play */
+
+.titulo-intro {
+    width: 49%;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0d345c;
+    font-size: 7vw;
+    
 }
-/* --- fim texto completo final --- */
+.texto-intro {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+   /* font-family: Noto Sans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;  */
+}
+
+
+.imagemhome {
+    /* display: block; */
+    width: 50%;
+    margin-left:5%; 
+    margin-right: 10%;
+    /* margin-right: 10%; */
+    /* margin-right: auto; */
+}
+
+.imagemhome img  {
+   width: 100%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
 
 
 
-/* a {
-    color: rgb(0, 0, 0);
+.h1-main {
+    margin-top: 10%;
+    width: 30%;
+}
+.h1-main h1 {
+    text-align: center;
+    color: #0d345c;
+    /* font-size: 50px; */
+    font-size: 2.8vw;
+}
+.h1-main a {
     text-decoration: none;
-} */
+}
+.h1-main p {
+    text-align: center;
+}
+.imagem-1 {
 
-/* a:hover {
-    text-decoration:underline ;
-} */
-
-/* a:active {
-    color: rgb(255, 255, 255);
-} */
-
-mark {
-    background-color: #bdddff;
-    border-radius: 5px;
-    /* padding: 1px; */
-  }
-
-footer > p {
-     text-align: center;
-  }
-
- 
-  
+    width: 100%;
+}
 
 
-
-  
+  footer > p {
+    text-align: center;  
+}
