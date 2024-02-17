@@ -17,7 +17,7 @@ body {
     background-color: #0d345c;
     display: flex;
     justify-content: space-between;
-    padding: 0.3rem 4rem;
+    padding: 0.3rem 2rem;
 }
 .menu-lista   {
     display: flex;
@@ -47,7 +47,7 @@ body {
 /* --- responsivo do botão menu --- */
 @media screen and (max-width: 730px) {
     .divlogo {
-        padding: 0.3rem 3rem;
+        padding: 0.3rem 1rem;
     }
     .divlogo img {
         width: 35px;
@@ -96,13 +96,13 @@ main {
     /* margin-right: auto; */
 }
 .titulo-intro {
-    width: 49%;
-    margin-top: 15%;
-    margin-left: 10%;
+    /* width: 49%; */
+    margin-top: auto;
+    margin-left: auto;
     margin-bottom: 10px;
     text-align: center;
     color: #0d345c;
-    font-size: 7vw;  
+    font-size: 50px;  
 }
 .texto-intro {
     width: 80%;
@@ -156,23 +156,23 @@ main {
         margin-right: auto;
     }
     .titulo-intro {
-        width: 50%;
+        margin-top: 40px;
+        text-align: center;
+        /* width: 50%; */
         /* text-align: center; */
-        font-size: 50px;
+        font-size: 40px;
         margin-left: auto;
         margin-right: auto;
     }
     .imagemhome {
-        width: 80%;
+        width: 85%;
         margin-left: auto;
         margin-right: auto;
     }
-    /* --- the endless tale --- */
-    /* h1 {
-        width: 60%;
-    } */
+    /*--- the endless tale --- */
     .h1-main {
-        width: 50%;
+        margin-bottom: 50px;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -180,7 +180,12 @@ main {
         font-size: 25px;
     }
     .h1-main p {
-        font-size: 15px;
+        font-size: 14px;
+    }
+    footer > p {
+        text-align: center; 
+        font-size: 9px; 
+        padding: 10px;
     }
 }
 /* --- FIM responsividade geral --- */
