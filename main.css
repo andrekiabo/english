@@ -1,12 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 
-
-p {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-}
-
 /* --------- Style início geral ----------*/
 body {
 
@@ -18,13 +12,12 @@ body {
 }
 .divlogo img {
     width: 70px;
-
 }
 .divlogo {
     background-color: #0d345c;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 4rem;
+    padding: 0.3rem 4rem;
 }
 .menu-lista   {
     display: flex;
@@ -51,23 +44,24 @@ body {
     display: none;
 }
 
+/* --- responsivo do botão menu --- */
 @media screen and (max-width: 730px) {
     .divlogo {
-        padding: 0.5rem 4rem;
+        padding: 0.3rem 3rem;
+    }
+    .divlogo img {
+        width: 35px;
     }
     .menu-item {
         display: none; 
-
     }
     .mobile-menu-icon {
-        display: block;
-        
+        display: block; 
     }
     .mobile-menu-icon button {
         background-color: transparent;
         border: none;
-        cursor: pointer;
-        
+        cursor: pointer; 
     }
     .mobile-menu ul {
         display: flex;
@@ -78,8 +72,7 @@ body {
     }  
     .mobile-menu .menu-item {
         display: block;
-        padding-top: 1.2rem;
-        
+        padding-top: 1.2rem; 
     }
     /* javaScript */
     .open {
@@ -88,27 +81,20 @@ body {
 }
 /* ------- fim style geral ------- */
 
-main {
-    /* background-color: white; */
-    /* width: 80%; */
-  padding: 5%;
-    /* margin: auto; */
-    /* margin-top: 20px; */
-    /* border-radius: 10px; */
-    /* box-shadow: 5px 5px 20px #010101b0; */
-}
 
+
+/* ----- style main ------- */
+main {
+  padding: 5%;
+}
 .container-intro {
     display: flex;
     margin-top: 50px;
-
 }
-
 .intro-textos {
     width: 50%;
-
+    /* margin-right: auto; */
 }
-
 .titulo-intro {
     width: 49%;
     margin-top: 15%;
@@ -116,8 +102,7 @@ main {
     margin-bottom: 10px;
     text-align: center;
     color: #0d345c;
-    font-size: 7vw;
-    
+    font-size: 7vw;  
 }
 .texto-intro {
     width: 80%;
@@ -125,34 +110,24 @@ main {
     margin: auto;
    /* font-family: Noto Sans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;  */
 }
-
-
 .imagemhome {
-    /* display: block; */
     width: 50%;
     margin-left:5%; 
-    margin-right: 10%;
-    /* margin-right: 10%; */
-    /* margin-right: auto; */
 }
-
 .imagemhome img  {
    width: 100%;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
 }
-
-
-
+/* --- the endless tale --- */
 .h1-main {
-    margin-top: 10%;
-    width: 30%;
+    margin-top: 150px;
+    width: 35%;
+    margin-left: 5%;
 }
 .h1-main h1 {
     text-align: center;
     color: #0d345c;
     /* font-size: 50px; */
-    font-size: 2.8vw;
+    /* font-size: 2.8vw; */
 }
 .h1-main a {
     text-decoration: none;
@@ -161,11 +136,56 @@ main {
     text-align: center;
 }
 .imagem-1 {
-
     width: 100%;
 }
+/* fim the endless tale */
+
+/* ----- FIM style main ------- */
 
 
-  footer > p {
+/* --- responsividade geral --- */
+@media screen and (max-width: 730px) {
+    .container-intro {
+        display: inline;
+        width: 90%;
+    }
+    .intro-textos{
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .titulo-intro {
+        width: 50%;
+        /* text-align: center; */
+        font-size: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imagemhome {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* --- the endless tale --- */
+    /* h1 {
+        width: 60%;
+    } */
+    .h1-main {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .h1-main h1 {
+        font-size: 25px;
+    }
+    .h1-main p {
+        font-size: 15px;
+    }
+}
+/* --- FIM responsividade geral --- */
+
+
+footer > p {
     text-align: center;  
 }

@@ -1,0 +1,235 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+
+/* --------- Style início geral ----------*/
+body {
+
+    /* background-image: linear-gradient(to right, #e1e1e1ce 0,7%, #ffe9cb7c ); */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    margin-top: 0px;
+}
+.divlogo img {
+    width: 70px;
+}
+.divlogo {
+    background-color: #0d345c;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 4rem;
+}
+.menu-lista   {
+    display: flex;
+    align-items: center;
+}
+.menu-lista ul {
+    display: flex;
+    justify-content: center;
+    list-style: none; /*tirar bolinhas */
+}
+.menu-item {
+    margin: 0 15px;
+}
+.menu-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+}
+.mobile-menu-icon {
+    display: none;
+}
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .divlogo {
+      padding: 0.3rem 3rem;
+  }
+  .divlogo img {
+      width: 35px;
+  }
+  .menu-item {
+      display: none; 
+  }
+  .mobile-menu-icon {
+      display: block; 
+  }
+  .mobile-menu-icon button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer; 
+  }
+  .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+      background-color: #0d345c;
+  }  
+  .mobile-menu .menu-item {
+      display: block;
+      padding-top: 1.2rem; 
+  }
+  /* javaScript */
+  .open {
+      display: block;
+  }
+}
+/* ------- fim início style geral ------- */
+
+/* -------------- pagina incial The Endless Tale --------- */
+.menu-geral {
+  margin-top: 100px;
+}
+.menu-geral a {
+  text-decoration: none;
+}
+.the-endless-tale:hover{
+  opacity: 0.7;
+}
+.the-endless-tale {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  max-width: 70%;
+  margin-bottom: 70px;
+  /* padding: 5px; */
+  background-color: #e2e2e2;
+  border-radius: 5px;
+}
+.the-endless-tale h1{
+  padding-top: 20px;
+}
+.the-endless-tale p {
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+  color: black;
+}
+
+/* --------------FIM pagina incial The Endless Tale --------- */
+
+/*-------------- mini menu de escolhas the endless tale-------- */
+.escolha {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.escolha a{
+  text-decoration: none;
+  color: #0d345c;
+}
+.escolha h1 {
+  text-align: left;
+  font-size: 2.5rem;
+}
+.escolha ul {
+  display: flex;
+  justify-content: center;
+}
+.escolha li {
+  list-style: none;
+  margin: 2%;
+  /* text-decoration: none; */
+}
+.escolha ul a {
+  padding: 5px;
+  color: black;
+  list-style: none; 
+  text-decoration: none;
+}
+/* cor do botão atual */
+.escolha-atual { 
+  background-color: #e9e9e9; 
+  border-radius: 10px;
+}
+/*-------- FIM mini menu de escolhas the endless tale------- */
+
+
+main {
+  padding: 1%;
+}
+h1 { text-align: center;
+  color: #0d345c;
+}
+h2 {
+  text-align: center;
+}
+.frases {
+  width: 600px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  padding: 1px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+.frases p {
+  text-align: center;
+}
+.frases audio {
+  margin-left: auto;
+  margin-right:auto ;
+  margin-top: 5px;
+}
+.frases audio::-webkit-media-controls-play-button {
+  background-color: #ffffff; /* Cor do botão de play */
+}
+
+.frases audio::-webkit-media-controls-enclosure {
+  color: #fff; /* Cor do texto */
+}
+mark {
+  background-color: #bdddff;
+  border-radius: 5px;
+  /* padding: 1px; */
+}
+
+
+/* --------- texto completo final --- */
+.texto-completo {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.texto-completo h1 {
+  text-align: center;
+}
+.texto-completo h3 {
+  text-align: center;
+  /* width:75% ; */
+}
+h3 audio {
+  margin-top: 50px;
+}
+h3 audio::-webkit-media-controls-play-button {
+  background-color: #ffffff; /* Cor do botão de play */
+}
+/* --------- fim texto completo final --- */
+
+@media screen and (max-width: 730px) {
+    /*--mini menu de escolhas the endless tale--- */
+  .escolha h1 {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+}
+
+footer > p {
+     text-align: center;
+  }
+
+ 
+  
+
+
+
+  
